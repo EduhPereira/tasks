@@ -1,7 +1,15 @@
-# Awesome Project Build with TypeORM
+# Tasks API
 
-Steps to run this project:
+## Requirements
+
+1. Have installed Docker and Docker-Compose on the machine
+
+## Steps to run this project:
 
 1. Run `npm i` command
-2. Setup database settings inside `ormconfig.json` file
-3. Run `npm start` command
+2. Run `docker-compose up -d`
+3. Run `npm run dev` for development version or `npm run start` for production version
+
+## Documentation
+
+Access `http://localhost:3000/api-docs`
